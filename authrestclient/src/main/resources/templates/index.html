@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Rest Client</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h3>Rest Client</h3>
+	<form action="#" th:action="@{/fetchMessage1}" method="get">
+		<table>
+			 
+			<tr>
+				<td><button type="submit">Get Resource1 XYZ</button></td>
+			</tr>
+		</table>
+	</form>
+	
+	<form action="#" th:action="@{/fetchMessage2}" method="get">
+		<table>
+			 
+			<tr>
+				<td><button type="submit">Get Resource2 ABC</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
